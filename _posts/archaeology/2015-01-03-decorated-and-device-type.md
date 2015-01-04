@@ -2,7 +2,7 @@
 layout:	postdemo
 title:	"纹饰与类型"
 date:	2015-01-03 15:06:00
-categories:	archaeology
+category:	archaeology
 tags: 理论 思考
 ---
 &emsp;&emsp;在考古类型学研究中，器物纹饰是一种重要类型判别指标，大量的论文和报告在做类型学分析时，都会考虑单列***纹饰***，在划定相对年代关系时，将不同时期纹饰的差异作为重要的划分因素。    
