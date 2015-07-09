@@ -2,11 +2,12 @@
 title: caimmy
 email: caimmy@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  业余码农，专业考古，到现在还没有解决“你怎么还在读书？”的问题。
+  业余码农，专业看风水。
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://caimmy.github.io" # the base hostname & protocol for your site
 #twitter_username: caimmy
 github_username:  caimmy
+paginate: 15
 
 # Build settings
 markdown: kramdown
