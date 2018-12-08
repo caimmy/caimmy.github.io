@@ -3,18 +3,18 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: caimmy
 email:
-description: A simple and awesome blog theme powered by jekyll.
+description: Caimmy's Personal Blog
 url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+keywords: ["blog", "caimmy"]
 
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Asia/Chongqing
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -33,14 +33,14 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
-  avatar: leonids-logo.png
+  name: caimmy
+  avatar: person-logo.png
   job: "A jekyll theme"
   bio: "A simple and awesome blog theme powered by jekyll."
   email:
   disqus-shortname:
   twitter: #username
-  facebook: #username
+  facebook: #caimmy
   google:
     plus: #username
     analytics:
@@ -48,8 +48,8 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
-  gitlab: #username
+  github: #caimmy
+  gitlab: #caimmy
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
   skype: #username
