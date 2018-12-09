@@ -35,9 +35,9 @@ kramdown:
 owner:
   name: caimmy
   avatar: person-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
-  email:
+  job: "put some words"
+  bio: "穿越时间的边城浪子"
+  email: "caimmy@hotmail.com"
   disqus-shortname:
   twitter: #username
   facebook: #caimmy

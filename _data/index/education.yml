@@ -1,8 +1,7 @@
-- name: Massachusets Instutite of Technology
-  link: http://web.mit.edu/
-  date: 2011 - <i class="fa fa-clock-o" aria-hidden="true" title="Until Now"></i>
-  descr: <br> (expected graduation in 2019)
-
-- name: Harvard
+- name: 四川大学 考古学及博物馆学
   link: http://www.harvard.edu/
-  date: 2007 - 2011
+  date: 2008 - 2011
+
+- name: 电子科技大学 软件工程
+  link: http://www.ustec.edu.cn/
+  date: 2005 - 2008
