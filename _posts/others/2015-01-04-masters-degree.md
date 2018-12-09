@@ -12,4 +12,4 @@ categories: others
 
 什么也别说，___祖国知道我___。
 
-![laugh](/image/asserts/laugh.jpg)
+![laugh](/img/asserts/laugh.jpg)
