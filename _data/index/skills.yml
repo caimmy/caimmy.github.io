@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: PHP, c/c++, Java, ActionScript, Docker, Python
+aspects: PHP, c/c++, Go, ActionScript, Docker, Python
 percentage: 80, 90, 60, 80, 60, 85
