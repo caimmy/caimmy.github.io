@@ -23,9 +23,9 @@ tags: 在线系统 prehistory 定量 人工智能 知识图谱
 &emsp;&emsp;目前配合着这个系统，我准备在2020年开始逐本通读《二十四史》，以校验知识图谱为目标，作为坚持阅读的动力。。。
 
 
-<img width="400" height="400" style="align: center;" src="https://caimmy.github.io/img/202001/kn_sel1.jpg">
+<img style="align: center;" src="https://caimmy.github.io/img/202001/kn_sel1.jpg">
 
 
-<img width="400" height="400" style="align: center;" src="https://caimmy.github.io/img/202001/kn_sel2.jpg">
+<img style="align: center;" src="https://caimmy.github.io/img/202001/kn_sel2.jpg">
 
-<img width="400" height="400" style="align: center;" src="https://caimmy.github.io/img/202001/kn_sel3.jpg">
+<img style="align: center;" src="https://caimmy.github.io/img/202001/kn_sel3.jpg">
