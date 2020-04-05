@@ -31,19 +31,19 @@ tags: 在线系统 prehistory 定量 自然语言处理 词向量 文本分析
    
    《后汉书》
    
-   <img src="/img/202004/houhanshu_liubang.png" alt="刘邦-《后汉书》" width="300" height="300">
+   <img src="/img/202004/houhanshu_liubang.png" alt="刘邦-《后汉书》" height="300">
    
    [原始链接](https://www.prehistory.cn/nlp/word2vec?posword=%E5%88%98%E9%82%A6&negword=&book=%E5%90%8E%E6%B1%89%E4%B9%A6)
    
    《三国志》
    
-   <img src="/img/202004/sanguozhi_liubang.png" alt="刘邦-《三国志》" width="300" height="300">
+   <img src="/img/202004/sanguozhi_liubang.png" alt="刘邦-《三国志》" height="300">
    
    [原始链接](https://www.prehistory.cn/nlp/word2vec?posword=%E5%88%98%E9%82%A6&negword=&book=%E4%B8%89%E5%9B%BD%E5%BF%97)
    
    《史记》
    
-   <img src="/img/202004/shiji_liubang.png" alt="刘邦-《史记》" width="300" height="300">
+   <img src="/img/202004/shiji_liubang.png" alt="刘邦-《史记》" height="300">
    
    [原始链接](https://www.prehistory.cn/nlp/word2vec?posword=%E5%88%98%E9%82%A6&negword=&book=%E5%8F%B2%E8%AE%B0)  
      
