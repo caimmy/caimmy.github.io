@@ -25,7 +25,7 @@ tags: 在线系统 prehistory 定量 自然语言处理 词向量 文本分析
   
    《汉书》
    
-   <img src="/img/202004/hanshu_liubang_wv.png" alt="刘邦-《汉书》" height="300" width="300">
+   <img src="/img/202004/hanshu_liubang_wv.png" alt="刘邦-《汉书》" height="300">
      
    [原始链接](https://www.prehistory.cn/nlp/word2vec?posword=%E5%88%98%E9%82%A6&negword=&book=%E6%B1%89%E4%B9%A6)
    
