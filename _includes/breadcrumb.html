@@ -1,0 +1,67 @@
+<!-- Breadcrumb Navigation -->
+<nav aria-label="breadcrumb" class="breadcrumb-nav">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a itemprop="item" href="{{ site.url }}/">
+        <span itemprop="name">首页</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+    
+    {% if page.categories %}
+      {% for category in page.categories %}
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <span class="separator">/</span>
+        <a itemprop="item" href="{{ site.url }}/categories/#{{ category | slugify }}">
+          <span itemprop="name">{{ category }}</span>
+        </a>
+        <meta itemprop="position" content="{{ forloop.index | plus: 1 }}" />
+      </li>
+      {% endfor %}
+    {% endif %}
+    
+    {% if page.title %}
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span class="separator">/</span>
+      <span itemprop="name">{{ page.title }}</span>
+      <meta itemprop="position" content="{% if page.categories %}{{ page.categories.size | plus: 2 }}{% else %}2{% endif %}" />
+    </li>
+    {% endif %}
+  </ol>
+</nav>
+
+<style>
+.breadcrumb-nav {
+  padding: 10px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.breadcrumb-nav ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.breadcrumb-nav li {
+  display: inline-flex;
+  align-items: center;
+}
+
+.breadcrumb-nav a {
+  color: #2196F3;
+  text-decoration: none;
+}
+
+.breadcrumb-nav a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb-nav .separator {
+  margin: 0 8px;
+  color: #999;
+}
+</style>

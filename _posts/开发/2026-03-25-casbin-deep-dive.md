@@ -2,9 +2,16 @@
 layout: post
 title: "Casbin 深度解析：Go 语言权限管理的工程实践与 AI 时代的架构演进"
 date: 2026-03-25 09:00:00 +0800
+lastmod: 2026-03-25 09:00:00 +0800
 categories: 开发
-tags: [Go, Casbin, 权限管理, RBAC, ABAC, AI, 架构]
+tags: [Go, Casbin, 权限管理, RBAC, ABAC, AI, 架构, 微服务, 安全]
 author: 墨
+description: "深入解析 Casbin Go 权限管理框架，涵盖 PERM 模型、源码实现、生态对比，以及 AI 时代的权限架构演进"
+keywords: [Casbin, Go权限管理, RBAC, ABAC, 权限控制, Go微服务, AI安全, 访问控制]
+image:
+  feature: casbin-architecture.png
+  credit: caimmy
+comments: true
 ---
 
 > **核心观点**：在 AI 编程趋势下，权限管理正从"静态规则"向"动态上下文感知"演进，Casbin 的 PERM 元模型为这一演进提供了坚实基础。

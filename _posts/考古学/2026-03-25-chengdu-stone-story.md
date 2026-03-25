@@ -2,9 +2,16 @@
 layout: post
 title: "成都石头记：一座无石之城的神圣密码"
 date: 2026-03-25 08:00:00 +0800
+lastmod: 2026-03-25 08:00:00 +0800
 categories: 考古学
-tags: [成都, 考古, 石头, 古蜀文明, 文化]
+tags: [成都, 考古, 石头, 古蜀文明, 文化, 支矶石, 天涯石, 石室中学, 成都历史]
 author: 墨
+description: "探索成都带'石'字地名背后的千年密码，从支矶石到石室中学，解读古蜀文明的大石崇拜与文脉传承"
+keywords: [成都石头记, 支矶石, 天涯石, 古蜀文明, 石室中学, 成都考古, 成都文化]
+image:
+  feature: chengdu-stones.jpg
+  credit: caimmy
+comments: true
 ---
 
 > **核心洞察：成都平原没有石头，所以每块石头都成了神。**

@@ -1,0 +1,101 @@
+<!-- Structured Data - JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "name": "{{ site.title }}",
+  "description": "{{ site.description }}",
+  "url": "{{ site.url }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ site.owner.name }}",
+    "jobTitle": "{{ site.owner.job }}",
+    "description": "{{ site.owner.bio }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/img/person-logo.png"
+    }
+  }
+}
+</script>
+
+{% if page.layout == 'post' %}
+<!-- Article Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "{{ page.title | escape }}",
+  "description": "{{ page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 }}",
+  "url": "{{ site.url }}{{ page.url }}",
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  {% if page.modified %}
+  "dateModified": "{{ page.modified | date_to_xmlschema }}",
+  {% else %}
+  "dateModified": "{{ page.date | date_to_xmlschema }}",
+  {% endif %}
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author | default: site.owner.name }}"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ site.url }}/img/person-logo.png"
+    }
+  },
+  {% if page.image.feature %}
+  "image": "{{ site.url }}/img/{{ page.image.feature }}",
+  {% else %}
+  "image": "{{ site.url }}/img/person-logo.png",
+  {% endif %}
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "{{ site.url }}{{ page.url }}"
+  }
+  {% if page.tags %},
+  "keywords": "{{ page.tags | join: ',' }}"
+  {% endif %}
+}
+</script>
+{% endif %}
+
+<!-- Breadcrumb Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "{{ site.url }}/"
+    }
+    {% if page.categories %}
+    {% for category in page.categories %}
+    ,{
+      "@type": "ListItem",
+      "position": {{ forloop.index | plus: 1 }},
+      "name": "{{ category }}",
+      "item": "{{ site.url }}/categories/#{{ category | slugify }}"
+    }
+    {% endfor %}
+    {% endif %}
+    {% if page.title %}
+    ,{
+      "@type": "ListItem",
+      "position": {% if page.categories %}{{ page.categories.size | plus: 2 }}{% else %}2{% endif %},
+      "name": "{{ page.title | escape }}",
+      "item": "{{ site.url }}{{ page.url }}"
+    }
+    {% endif %}
+  ]
+}
+</script>

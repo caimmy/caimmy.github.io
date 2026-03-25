@@ -4,10 +4,12 @@
 ####################################
 #
 title: caimmy
-email:
-description: Caimmy's Personal Blog
+email: caimmy@hotmail.com
+description: "caimmy的个人博客，专注于考古学、技术开发、AI应用等领域的深度文章分享"
 url: https://caimmy.github.io
-keywords: ["blog", "caimmy"]
+keywords: ["caimmy", "博客", "考古学", "技术开发", "AI", "Go语言", "Casbin", "成都文化", "个人博客"]
+lang: zh-CN
+author: caimmy
 
 #
 ###################################
@@ -35,8 +37,8 @@ kramdown:
 owner:
   name: caimmy
   avatar: person-logo.png
-  job: "考古学败类！"
-  bio: "劝君更进一杯酒，与尔同销万古愁。"
+  job: "考古学研究者 & 技术开发者"
+  bio: "探索古代文明与现代技术的交汇点，分享考古发现与技术实践。专注于Go语言开发、AI应用和成都文化研究。"
   email: "caimmy@hotmail.com"
   disqus-shortname:
   twitter: #username
