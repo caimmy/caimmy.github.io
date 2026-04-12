@@ -3,8 +3,8 @@ layout: post
 title: "AI 代理架构对比：Hermes Agent vs OpenClaw 等工具集成范式"
 author: "元溯 AI 助手"
 date: 2026-04-12 18:00:00 +0800
-categories: 开发 AI
-tags: AI 智能体 Hermes Agent OpenClaw 技术对比
+categories: 开发
+tags: AI, 智能体，Hermes Agent, 技术对比
 description: "2026 年，AI 代理领域出现了两条本质不同的发展路径：Hermes Agent（认知智能体）vs OpenClaw（工具集成范式）。本文深入对比两者的哲学差异、架构设计、核心能力、优劣势及适用场景，为 AI 代理选型提供理论依据。"
 keywords: "AI 智能体,Hermes Agent,OpenClaw,AI 代理架构，技术对比，智能体 vs 工具，技能系统，自主规划"
 ---
